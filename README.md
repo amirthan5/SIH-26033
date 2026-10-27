@@ -24,7 +24,6 @@ Benefits:
 • Better prices for farmers.
 • Lower prices for consumers.
 • Reduced supply chain inefficiencies.
-<img src="01_system_overview.png">
 
 ## Proposed Solution
 
@@ -88,7 +87,7 @@ kisandirect/
 | **View** | `ListProduct`, `PriceAdvice`, `Checkout`, `ConfirmDelivery`, `RateOrder`, payment webhook |
 | **Template** | Simple pages with big buttons; every text wrapped in `{% trans %}` |
 | **URLconf** | `config/urls.py` includes each app; language-prefixed URLs via `i18n_patterns` |
-
+<img src="02_django_mvt_and_layout.png">
 ### 1. Simple interface in Tamil and English
 
 - Enable `django.middleware.locale.LocaleMiddleware`, set `LANGUAGES = [("en", "English"), ("ta", "தமிழ்")]` and `LOCALE_PATHS = [BASE_DIR / "locale"]`.
@@ -187,7 +186,7 @@ Transaction(payout) 100% of item value sent to the farmer's UPI/bank account
 - Every farmer gets an **Earnings** page: orders, amount received, amount pending.
 
 **Methodology and implementation plan**
-
+<img src="01_system_overview.png">
 | Step | What is built | Output |
 |---|---|---|
 | 1 | Django project, `accounts` with farmer / buyer / delivery roles, Tamil-English switch | Sign up and language working |
