@@ -24,6 +24,7 @@ Benefits:
 • Better prices for farmers.
 • Lower prices for consumers.
 • Reduced supply chain inefficiencies.
+<img src="01_system_overview.png">
 
 ## Proposed Solution
 
